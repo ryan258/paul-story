@@ -26,6 +26,14 @@ h2 {
 	display: block;
 	margin: 60px auto 20px;
 } 
+.eventcontent h2 {
+	/*font-size: 36px;
+	line-height: 48px;
+	color: #333;
+	max-width: 960px;
+	display: block;*/
+	margin: 0px auto 20px;
+} 
 
 h3 { 
 	font-size: 28px;
@@ -103,7 +111,7 @@ p, ul, figcaption {
 	line-height: 30px;
 	color: #666;
 	max-width: 760px;
-	margin: 20px auto 30px;
+	margin: 5px auto;
 }
 
 .body > p,
@@ -116,7 +124,17 @@ p, ul, figcaption {
 
 p {
 	line-height: 32px;
-	margin: 0 auto 30px;
+	margin: 0 auto 10px;
+}
+
+.time {
+	background: #333;
+}
+
+.time p {
+	margin: 0;
+	color: #fff;
+	text-align: center;
 }
 
 figcaption {
@@ -378,12 +396,17 @@ padding: 0 0 3em;;
 
 /* Footer Styles */
 
-footer { 
-	font-size: 18px; 
-	line-height: 14px; 
+footer {
+	font-size: 18px;
+	line-height: 14px;
 	color: #FFF;
-	background-color: #646f7c;
-	padding: 1.5em 0 6em; 
+	/* background-color: #646f7c; */
+	padding: 0 0 1.5em 0;
+}
+
+.eventcontent footer {
+	background: none;
+	color: #111;
 }
 
 footer p,
