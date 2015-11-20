@@ -8,8 +8,8 @@ body {
 }
 
 h1 {
-	font-size: 86px;
-	line-height: 92px;
+	font-size: 46px;
+	line-height: 52px;
 	color: #eee;
 	font-weight: bold;
 	max-width: 1200px;
@@ -103,8 +103,8 @@ ul li.row {
 }
 
 .post-deck {
-	font-size: 30px;
-	line-height: 36px;
+	font-size: 20px;
+	line-height: 32px;
 	color: #fff;
 	max-width: 1200px;
 	text-align: center;
